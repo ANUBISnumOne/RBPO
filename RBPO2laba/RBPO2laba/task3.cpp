@@ -4,21 +4,19 @@
 
 using namespace std;
 
-double f(double x, double y);
+double f(double x);
 
 int main()
 {
 	cout << "x: ";
-	double x, y;
+	double x;
 	cin >> x;
-	cout << "y: ";
-	cin >> y;
-	cout << "f(x, y): " << setprecision(5) << f(x) << endl;
+	cout << "f(x): " << setprecision(5) << f(x) << endl;
 	system("pause");
 	return 0;
 }
 
-double f(double x, double y)
+double f(double x)
 {
-	return (sqrt(x) - sqrt(y)) / x;
+	return 1 / (sqrt(x) + sqrt(2));
 }

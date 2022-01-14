@@ -4,24 +4,22 @@
 
 using namespace std;
 
-void f(const double& x, double& y, double& result);
+void f(const double& x, double& result);
 
 int main()
 {
 	cout << "x: ";
 	double x;
 	cin >> x;
-	cout << "y: ";
-	double y;
-	cin >> y;
+	
 	double result;
-	f(x, y, result);
-	cout << "f(x,y): " << setprecision(5) << result << endl;
+	f(x, result);
+	cout << "f(x): " << setprecision(5) << result << endl;
 	system("pause");
 	return 0;
 }
 
-void f(const double& x, double&y, double& result)
+void f(const double& x, double& result)
 {
-	result = (sqrt(x) - sqrt(y)) / x;
+	result = 1 / (sqrt(x) + sqrt(2));
 }

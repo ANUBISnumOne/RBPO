@@ -1,6 +1,6 @@
 #include <cmath>
 
-double f(double x, double y)
+double f(double x)
 {
-	(sqrt(x) - sqrt(y)) / x;
+	return 1 / (sqrt(x) + sqrt(2));
 }

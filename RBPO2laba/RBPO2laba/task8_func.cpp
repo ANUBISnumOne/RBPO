@@ -1,9 +1,9 @@
 #include "func.h"
 
-double x, double y;
+double x;
 double result;
 
 void f()
 {
-	(sqrt(x) - sqrt(y)) / x;
+	result = 1 / (sqrt(x) + sqrt(2));
 }

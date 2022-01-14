@@ -9,6 +9,6 @@ namespace stepanov
 {
 	void f();
 
-	extern double x, y;
+	extern double x;
 	extern double result;
 }

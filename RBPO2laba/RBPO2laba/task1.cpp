@@ -7,14 +7,12 @@ using namespace std;
 int main()
 {
 	cout << "x: ";
-	double x, y, xx = 5, yy = 6;
+	double x, xx = 5;
 	cin >> x;
-	cout << "y: ";
-	cin >> y;
-	double f = (sqrt(x) - sqrt(y))/x;
-	double f2 = (sqrt(xx) - sqrt(yy)) / xx;
-	cout << "f(x,y): " << setprecision(5) << f << endl;
-	cout << "f(x,y): " << setprecision(5) << f2 << endl;
+	double f = 1/(sqrt(x)+sqrt(2));
+	double f2 = 1 / (sqrt(xx) + sqrt(2));
+	cout << "f(x): " << setprecision(5) << f << endl;
+	cout << "f(x): " << setprecision(5) << f2 << endl;
 	system("pause");
 	return 0;
 
