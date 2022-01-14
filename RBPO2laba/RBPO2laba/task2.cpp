@@ -12,11 +12,11 @@ double f(double x)
 int main()
 {
 	cout << "x: ";
-	double x, y;
+	double x;
 	double xx = 7;
 	cin >> x;
 	cout << "f(x): " << setprecision(5) << f(x) << endl;
-	cout << "f(x): " << setprecision(5) << f(o) << endl;
+	cout << "f(x): " << setprecision(5) << f(xx) << endl;
 	system("pause");
 	return 0;
 }
