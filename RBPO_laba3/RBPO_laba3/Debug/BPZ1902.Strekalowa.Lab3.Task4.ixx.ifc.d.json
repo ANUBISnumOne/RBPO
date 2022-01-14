@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\тошиба\\source\\repos\\rbpo_laba3\\bpz1902.strekalowa.lab3.task4.ixx",
+        "ProvidedModule": "BPZ1902.Strekalowa.Lab3.Task4",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "BPZ1902.Strekalowa.Lab3.Task4:f1",
+                "BMI": "C:\\Users\\Тошиба\\source\\repos\\RBPO_laba3\\RBPO_laba3\\Debug\\BPZ1902.Strekalowa.Lab3.Task4.f1.ixx.ifc"
+            },
+            {
+                "Name": "BPZ1902.Strekalowa.Lab3.Task4:f2",
+                "BMI": "C:\\Users\\Тошиба\\source\\repos\\RBPO_laba3\\RBPO_laba3\\Debug\\BPZ1902.Strekalowa.Lab3.Task4.f2.ixx.ifc"
+            },
+            {
+                "Name": "BPZ1902.Strekalowa.Lab3.Task4:f3",
+                "BMI": "C:\\Users\\Тошиба\\source\\repos\\RBPO_laba3\\RBPO_laba3\\Debug\\BPZ1902.Strekalowa.Lab3.Task4.f3.ixx.ifc"
+            },
+            {
+                "Name": "BPZ1902.Strekalowa.Lab3.Task4:f4",
+                "BMI": "C:\\Users\\Тошиба\\source\\repos\\RBPO_laba3\\RBPO_laba3\\Debug\\BPZ1902.Strekalowa.Lab3.Task4.f4.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
