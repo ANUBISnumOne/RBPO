@@ -1,15 +1,15 @@
 #include <iostream>
-#include <iomanip>
-#include "task6_func.cpp"
 
 using namespace std;
 
-int main()
-{
-	cout << "x: ";
-	double x;
-	cin >> x;
-	cout << "f(x): " << setprecision(5) << f(x) << endl;
-	system("pause");
-	return 0;
+double f(double);
+
+int main() {
+    double x;
+    while (true) {
+        cout << "Enter x: ";
+        cin >> x;
+        printf("1 / (sqrt(x) + sqrt(2))", f(x));
+    }
+    return 0;
 }
