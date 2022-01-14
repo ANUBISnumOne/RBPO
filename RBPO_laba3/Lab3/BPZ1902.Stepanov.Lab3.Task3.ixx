@@ -1,4 +1,4 @@
-export module BPZ1902.Chernysh.Lab3.Task3;
+export module BPZ1902.Stepanov.Lab3.Task3;
 
 import <cmath>;
 
